@@ -8,7 +8,7 @@ int main() {
 	scanf("%d", &number);
 	scanf("%s", name);
 
-	switch (number) {
+	switch (number) { //different ordinal number according to the number
 	case 1:
 		sprintf(result, "%dst %s", number, name);
 		break;
